@@ -1,18 +1,19 @@
 <template>
   <section class="hero">
     <div class="hero__contentWrapper">
-      <p class="hero__heading">Hello!</p>
+      <p class="hero__heading">Learning from My Parents!</p>
       <h1 class="hero__extraLead">
-        The
-        <strong>Gridsome and Markdown Starter Kit</strong>
-        you need!
+        Un evento organizado para exponer las empresas y/o emprendimientos de los padres de familia
+        de nuestra institución.
       </h1>
     </div>
-
-    <SocialIcons class="hero__socialIcons" parent-component="the Hero" />
-
+    <!-- <g-link class="blogCard__arrow" :to="edge.node.path">
+              <font-awesome :icon="['fas', 'arrow-right']" />
+            </g-link> -->
     <div class="hero__scrollBtn">
-      <font-awesome :icon="['fas', 'arrow-down']" />
+      <g-link class="blogCard__arrow" to="/blog">
+        <font-awesome :icon="['fas', 'arrow-right']" />
+      </g-link>
     </div>
   </section>
 </template>
@@ -59,7 +60,7 @@ export default {
       top: 50%;
       left: 10px;
       font-size: 250px;
-      content: "Yo!";
+      content: "JSN";
       color: $color-text-alt;
       transition: color $duration-animation-base ease;
       transform: translateY(-50%);
@@ -75,7 +76,7 @@ export default {
   &__heading {
     @extend %typography-xxlarge;
     margin: 0 0 0 -0.07em;
-    font-size: 80px;
+    font-size: 3.2rem;
   }
   &__extraLead {
     @extend %typography-small;

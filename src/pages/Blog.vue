@@ -2,7 +2,7 @@
   <layout>
     <main role="main" class="blog container">
       <header>
-        <h1 class="blog__title display-lg">Our Stories</h1>
+        <h1 class="blog__title display-lg">Participantes</h1>
         <hr class="blog__divider" />
       </header>
 
@@ -14,24 +14,25 @@
               :alt="edge.node.image_caption"
               :src="edge.node.image"
             />
-            <g-link class="blogCard__arrow" :to="edge.node.path">
+            <!-- <g-link class="blogCard__arrow" :to="edge.node.path">
               <font-awesome :icon="['fas', 'arrow-right']" />
-            </g-link>
+            </g-link> -->
           </figure>
         </div>
 
         <div class="blogCard__textContainer">
           <h2 class="blogCard__title">
-            <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
+            {{ edge.node.title }}
+            <!-- <g-link :to="edge.node.path">{{ edge.node.title }}</g-link> -->
           </h2>
           <p class="blogCard__excerpt">{{ edge.node.excerpt }}</p>
-          <p class="blogCard__details">
+          <!-- <p class="blogCard__details">
             {{ edge.node.category }} / {{ formatDate(edge.node.created_at) }}
-          </p>
+          </p> -->
 
-          <BaseLinkLikeButton class="blogCard__btn" :to="edge.node.path">
+          <!-- <BaseLinkLikeButton class="blogCard__btn" :to="edge.node.path">
             Read the article
-          </BaseLinkLikeButton>
+          </BaseLinkLikeButton> -->
         </div>
       </article>
 
@@ -44,7 +45,7 @@
 
 <page-query>
 query Post($page:Int) {
-  post: allPost(perPage: 6, page: $page, order: DESC, sortBy: "created_at") @paginate  {
+  post: allPost(perPage: 10, page: $page, order: ASC, sortBy: "title") @paginate  {
     totalCount
     pageInfo {
       totalPages
@@ -80,7 +81,7 @@ import { gsap } from "gsap"
 
 export default {
   metaInfo: {
-    title: "Blog"
+    title: "Participantes"
   },
   components: {
     Pager

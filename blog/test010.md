@@ -1,5 +1,5 @@
 ---
-title: Test Post Title 010
+title: Participante 010
 title_color: "#fcfcfc"
 title_meta: Post Title 010
 author: Paul Ozyzniewski

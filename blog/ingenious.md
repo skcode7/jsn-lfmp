@@ -1,17 +1,17 @@
 ---
-title: Test Post Title 001
+title: Ingenius
 title_color: "#fcfcfc"
-title_meta: Post Title 001
+title_meta: Post Title 002
 author: Paul Ozyzniewski
 category: Digital
-created_at: 2020-01-01T00:00:01.723Z
+created_at: 2020-01-02T00:00:01.723Z
 excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.
-image: ./images/img1.jpg
+image: ./images/ingenious.png
 image_caption: Photo by Josh Spires on Unsplash
 tags: tag1, tag2
 ---
 
-## Test 011
+## Test 002
 
 ### Heading
 

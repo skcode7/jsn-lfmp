@@ -3,19 +3,15 @@
     <div class="footer__inner container">
       <LogoComponent class="footer__logo" version="fullWhite" desc="Footer Logo" />
 
-      <div class="footer__socialIcons">
-        <SocialIcons parent-component="the Footer" />
-      </div>
-
       <p class="footer__copyright">
-        <!-- &copy; {{ thisYear }}.
-        <g-link to="/">HOME_PAGE_NAME</g-link> -->
+        &copy; {{ thisYear }}.
+        <!-- <g-link to="/">HOME_PAGE_NAME</g-link> -->
         Created by
         <a href="https://www.paulthedeveloper.com" target="_blank" rel="noopener noreferrer">
           Paul Ozyzniewski
         </a>
         - Powered by
-        <a href="https://gridsome.org/" target="_blank" rel="noopener noreferrer">Gridsome</a>
+        <a href="https://www.encaladadiaz.com/" target="_blank" rel="noopener noreferrer">EncDia</a>
       </p>
     </div>
   </footer>

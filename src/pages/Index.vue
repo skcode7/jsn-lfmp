@@ -12,7 +12,7 @@ import { basicPageTransitionEnter, basicPageTransitionLeave } from "@/mixins/pag
 
 export default {
   metaInfo: {
-    title: "Home Page"
+    title: "Bienvenidos"
   },
   components: {
     SectionHero

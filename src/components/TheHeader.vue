@@ -29,10 +29,6 @@
             </li>
           </ul>
         </nav>
-
-        <div class="header__socialIcons header__socialIcons--mobile">
-          <SocialIcons parent-component="the Header" />
-        </div>
       </div>
     </div>
   </header>
@@ -54,11 +50,11 @@ export default {
       ariaExpanded: false,
       pages: [
         {
-          name: "Home",
+          name: "Inicio",
           url: "/"
         },
         {
-          name: "Blog",
+          name: "Emprendimientos",
           url: "/blog/"
         }
       ]
