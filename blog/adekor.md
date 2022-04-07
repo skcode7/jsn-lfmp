@@ -1,17 +1,18 @@
 ---
-title: Participante 008
+title: Adekor
 title_color: "#fcfcfc"
-title_meta: Post Title 008
+title_meta: Post Title 005
 author: Paul Ozyzniewski
 category: Digital
-created_at: 2020-01-08T00:00:01.723Z
-excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.
-image: ./images/img2.jpg
+created_at: 2020-01-05T00:00:01.723Z
+excerpt: Adekor Importaciones, es una empresa que se dedica a la importación de materiales e insumos para cortinas para la venta directa a cortineros al por mayor. Además presta el servicio de instalación de cortinas, domótica, en casas, departamentos, oficinas etc, al cliente final, desde la fabricación de cortinas, el asesoramiento y la instalación. 
+contact: Ing. Julio Guachamin Parra - 0997777727 - j.guachamin@hotmail.com
+image: ./images/adekor.jpg
 image_caption: Photo by Josh Spires on Unsplash
 tags: tag1, tag2
 ---
 
-## Test 008
+## Test 005
 
 ### Heading
 

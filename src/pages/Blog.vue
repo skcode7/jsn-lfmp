@@ -26,6 +26,7 @@
             <!-- <g-link :to="edge.node.path">{{ edge.node.title }}</g-link> -->
           </h2>
           <p class="blogCard__excerpt">{{ edge.node.excerpt }}</p>
+          <p class="blogCard__excerpt">{{ edge.node.contact }}</p>
           <!-- <p class="blogCard__details">
             {{ edge.node.category }} / {{ formatDate(edge.node.created_at) }}
           </p> -->
@@ -55,6 +56,7 @@ query Post($page:Int) {
       node {
         title,
         excerpt,
+        contact,
         path,
         created_at,
         category,

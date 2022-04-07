@@ -1,17 +1,18 @@
 ---
-title: Participante 006
+title: TaxContable Cia. Ltda.
 title_color: "#fcfcfc"
-title_meta: Post Title 006
+title_meta: Post Title 004
 author: Paul Ozyzniewski
 category: Digital
-created_at: 2020-01-06T00:00:01.723Z
-excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.
-image: ./images/img2.jpg
+created_at: 2020-01-04T00:00:01.723Z
+excerpt: TAXCONTABLE Cia. Ltda, es una empresa que está especializada en Soluciones Administrativas y Outsourcing Contable y Tributario, con más de 12 años de experiencia en el mercado manejando diferentes tipos de industrias tales como Florícolas, Comercial, Consumo Masivo, Transporte, Servicios, Cooperativa de Ahorro y Crédito, Notaria, entre otras. 
+contact: Ing. Fernanda Burgos Gómez - 0995288765 - mf.burgos@hotmail.com
+image: ./images/tax-contable.png
 image_caption: Photo by Josh Spires on Unsplash
 tags: tag1, tag2
 ---
 
-## Test 006
+## Test 004
 
 ### Heading
 
