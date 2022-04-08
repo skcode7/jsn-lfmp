@@ -44,12 +44,12 @@ head.meta.push(
   {
     key: "author", // Ad.1
     name: "author",
-    content: "Paul Ozyzniewski"
+    content: "Carlos G. Encalada B."
   },
   {
     key: "description", // Ad.1
     name: "description",
-    content: "YOUR DESCRIPTION IN HERE"
+    content: "Learning by my Parents"
   }
 )
 ```

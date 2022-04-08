@@ -65,17 +65,17 @@ export default function(Vue, { router, head, isClient }) {
     {
       key: "author",
       name: "author",
-      content: "Paul Ozyzniewski"
+      content: "Carlos G. Encalada B."
     },
     {
       key: "description",
       name: "description",
-      content: "YOUR DESCRIPTION IN HERE"
+      content: "Learning from my parents"
     },
     {
       key: "keywords",
       name: "keywords",
-      content: "YOUR, KEYWORDS, IN, HERE"
+      content: "emprendimiento, networking, empresas, padres"
     },
     { key: "robots", name: "robots", content: "index, follow, noodp, noydir" }
   )

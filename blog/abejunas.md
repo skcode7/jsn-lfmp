@@ -1,12 +1,12 @@
 ---
-title: Abejunas Pura Miel
+title: Abejunas
 title_color: "#fcfcfc"
 title_meta: Post Title 001
 author: Paul Ozyzniewski
 category: Digital
 created_at: 2020-01-01T00:00:01.723Z
-excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.
-contact: https://www.facebook.com/people/Abejunas-Pura-Miel/100078994096860/
+excerpt: Somos una empresa familiar que a tomado el reto de producir miel pura de abeja con responsabilidad ambiental y social. Y ahora queremos invitarte a vivir la experiencia junto a nosotros y aprender sobre el arte de producir miel. Productos. frasco de 300 gr de miel, frasco retornable de 1300 gr de miel  y "vive la experiencia"
+contact: abejunas@gmail.com - 0997853634 - 0994659705
 image: "./images/abejunas.jpg"
 image_caption: Photo by Josh Spires on Unsplash
 tags: tag1, tag2

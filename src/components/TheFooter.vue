@@ -1,17 +1,20 @@
 <template>
   <footer class="footer">
     <div class="footer__inner container">
-      <LogoComponent class="footer__logo" version="fullWhite" desc="Footer Logo" />
+      <!-- <LogoComponent class="footer__logo" version="fullWhite" desc="Footer Logo" /> -->
 
       <p class="footer__copyright">
         &copy; {{ thisYear }}.
         <!-- <g-link to="/">HOME_PAGE_NAME</g-link> -->
         Created by
-        <a href="https://www.paulthedeveloper.com" target="_blank" rel="noopener noreferrer">
-          Paul Ozyzniewski
+        <a href="https://carlosencalada.dev" target="_blank" rel="noopener noreferrer">
+          Carlos Encalada
         </a>
-        - Powered by
-        <a href="https://www.encaladadiaz.com/" target="_blank" rel="noopener noreferrer">EncDia</a>
+        <br />
+        Powered by
+        <a href="https://jsncaritasalegres.com" target="_blank" rel="noopener noreferrer">
+          Caritas Alegres
+        </a>
       </p>
     </div>
   </footer>
@@ -37,7 +40,7 @@ export default {
 <style lang="scss" scoped>
 .footer {
   @extend %skewBorderBeforeFlip;
-  padding-top: 85px;
+  padding-top: 25px;
   display: flex;
   justify-content: center;
   color: $color-text-alt2;

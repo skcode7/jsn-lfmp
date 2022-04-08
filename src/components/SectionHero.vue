@@ -1,7 +1,11 @@
 <template>
   <section class="hero">
     <div class="hero__contentWrapper">
-      <p class="hero__heading">Learning from My Parents!</p>
+      <p class="hero__heading">
+        Learning from
+        <br />
+        My Parents!
+      </p>
       <h1 class="hero__extraLead">
         Un evento organizado para exponer las empresas y/o emprendimientos de los padres de familia
         de nuestra institución.
@@ -57,9 +61,9 @@ export default {
     &:before {
       position: absolute;
       z-index: $layer-negative-z-index;
-      top: 50%;
+      top: 30%;
       left: 10px;
-      font-size: 250px;
+      font-size: 10rem;
       content: "JSN";
       color: $color-text-alt;
       transition: color $duration-animation-base ease;
@@ -75,8 +79,8 @@ export default {
 
   &__heading {
     @extend %typography-xxlarge;
-    margin: 0 0 0 -0.07em;
-    font-size: 3.2rem;
+    margin: 5em 0 1em -0.07em;
+    font-size: 2.8rem;
   }
   &__extraLead {
     @extend %typography-small;
